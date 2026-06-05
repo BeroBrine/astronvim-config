@@ -1,0 +1,11 @@
+{
+  "Basalt Result Return": {
+    "prefix": ["res", "result"],
+    "body": [
+      "-> Result<${1:()}> {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Standard Basalt Result return type with curly braces"
+  }
+}
