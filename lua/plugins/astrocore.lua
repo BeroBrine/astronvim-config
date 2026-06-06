@@ -1,4 +1,4 @@
--- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 --
 -- -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- -- Configuration documentation can be found with `:h astrocore`
@@ -83,15 +83,14 @@
 --     },
 --   },
 -- }
-return { 
-  "AstroNvim/astrocore", 
-  ---@type AstroCoreOpts 
-  opts = { 
-    options = { 
-      opt = { 
-        background = "dark", -- Force Neovim to use dark mode 
-      }, 
-    }, 
-    -- REMOVED: features = { colorscheme = "everforest" }
-  }, 
-}
+-- return { 
+--   "AstroNvim/astrocore", 
+--   ---@type AstroCoreOpts 
+--   opts = { 
+--     options = { 
+--       opt = { 
+--         background = "dark", 
+--       }, 
+--     }, 
+--   }, 
+-- }
