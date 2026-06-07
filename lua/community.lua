@@ -9,6 +9,6 @@ return {
   { import = "astrocommunity.pack.rust",
     opts = {mason = false},
   },
-  { import = "astrocommunity.colorscheme.everforest" },
+  -- { import = "astrocommunity.colorscheme.everforest" },
   -- import/override with your plugins folder
 }
