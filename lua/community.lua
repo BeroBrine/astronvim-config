@@ -9,6 +9,9 @@ return {
   { import = "astrocommunity.pack.rust",
     opts = {mason = false},
   },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   -- { import = "astrocommunity.colorscheme.everforest" },
   -- import/override with your plugins folder
 }
